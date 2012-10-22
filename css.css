@@ -1,0 +1,85 @@
+/* CSS Document */
+
+#container{ 
+width: 600px;
+background-color:#FFFFFF;
+margin: 30px auto;
+height:300px;
+}
+#header{
+width:800px;
+padding-top:20px;
+text-align:center;
+
+}
+
+h1{font-family: 'Neuton', arial, serif; font-weight:normal; font-size:35px; margin:0px 0px 0px 90px;}
+h2{margin:-10px 0px 0px 216px; font-size:13px; font-weight:normal; font-family:Georgia, serif; }
+
+#content{
+width:240px;
+font-family:Georgia, serif;
+text-align:left;
+
+margin-top:130px;
+Margin-left:30px;
+font-size:14px;
+color:#000;
+line-height:25px;
+letter-spacing:.25px;
+
+}
+
+body{
+	background-color:#000;
+	margin:0;
+	padding:0;
+
+}
+
+#column1{
+width:200px;
+padding-top:40px;
+
+}
+
+.column2{
+width:200px;
+background-color:#710c0c;
+float:left;
+height:17px;
+margin-top:50px;
+
+
+}
+
+.column3{
+width:200px;
+background-color:#377c90;
+float:left;
+height:17px;
+margin-top:50px;
+
+
+}
+
+.column4{
+width:200px;
+background-color:#674730;
+float:left;
+height:17px;
+margin-top:50px;
+
+
+}
+
+.column5{
+width:200px;
+background-color:#62885b;
+float:left;
+height:17px;
+margin-top:50px;
+
+
+}
+

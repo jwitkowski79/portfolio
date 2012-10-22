@@ -1,45 +1,65 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Jen Witkowski Interactive Designer</title>
-<META NAME="Description" CONTENT="Jen Witkowski is a website designer and developer from Buffalo, NY.">
-<link href="style.css" rel="stylesheet" type="text/css" />
-<link href='http://fonts.googleapis.com/css?family=Questrial|Coustard' rel='stylesheet' type='text/css'>
-<style type="text/css">
-#leftCol a.<?php echo $currentPage;
-?> {
-color:#000; }
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
-<?php if ($currentPage !== 'about' && $currentPage !== 'contact') {
-	echo "#workHeading { color:#000; }";
-} ?>
+<meta name="viewport" content="width=device-width" />
 
-</style>
+  <title>Welcome to Foundation | Grid</title>
+
+  <!-- Included CSS Files (Uncompressed) -->
+  <!--
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  -->
+  
+  <!-- Included CSS Files (Compressed) -->
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
+  <link rel="stylesheet" href="style.css">
+
+
+
+  <script src="javascripts/modernizr.foundation.js"></script>
+  <link href='http://fonts.googleapis.com/css?family==Open+Sans:400,300,700|Arbutus+Slab' rel='stylesheet' type='text/css'>
+
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
 </head>
-
 <body>
-<div id="container">
-<div id="header">
-	<div class="interiorHeader">
-	<h1> Jen Witkowski</h1><h2>Interactive Designer</h2>
-	
-	</div><!--/interiorHeader-->
-</div><!--/header-->
-<div style="clear:both;"></div>
-<div id="leftCol">
-<h3 id="workHeading" class="noBorder">work</h3>
+  <div id="container">
 
-<a href="cakePros.php" class="cake">Cake Pros</a><br/>
-<a href="softlips.php" class="iron">Softlips</a><br/>
-<a href="mentholatum.php" class="mentho">Mentholatum CA</a><br/>
-<a href="winRohto.php" class="rohto">Win Rohto</a><br/>
-<a href="reeds.php" class="reeds">Reeds/Jenss</a><br/>
-<a href="shark.php" class="shark">Shark</a><br/>
-<a href="naturalIce.php" class="nat">Natural Ice</a><br/>
-<a href="wbc.php" class="wbc">NYMWBC</a><br/>
-<a href="cpaFinancial.php" class="cpa">CPA Financial</a><br/>
-<hr class="navHr"/>
-<h3><a href="about.php" class="about">about</a></h3>
-<h3><a href="contact.php" class="contact">contact</a></h3>
-</div>
+  <!-- Header and Nav -->
+ 
+  <nav class="top-bar">
+    <ul>
+      <!-- Title Area -->
+      <li class="name">
+        <h1>
+          <a href="#">
+            Jen.
+          </a>
+        </h1>
+      </li>
+      <li class="toggle-topbar"><a href="#"></a></li>
+    </ul>
+
+    <section>
+
+      <!-- Right Nav Section -->
+      <ul class="right">
+      
+        <li><a href="#">portfolio</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">blog</a></li>
+        <li><a href="#">contact</a></li>
+        
+          
+      </ul>
+    </section>
+  </nav>

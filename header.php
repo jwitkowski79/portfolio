@@ -23,7 +23,7 @@
 
 
   <script src="javascripts/modernizr.foundation.js"></script>
-  <link href='http://fonts.googleapis.com/css?family==Open+Sans:400,300,700|Arbutus+Slab' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300|Arbutus+Slab' rel='stylesheet' type='text/css'>
 
   <!-- IE Fix for HTML5 Tags -->
   <!--[if lt IE 9]>

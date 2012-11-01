@@ -5,91 +5,92 @@
 <?php include("header.php"); ?>
 
   <div class="row">
-
-    
     <div class="six columns flush">
       <div class="panel">
         <h2>Recent Work</h2>
-      </div>
-    </div>
-    
-
+      </div><!--/panel-->
+    </div><!--/col-->
   </div><!--/row-->
 
 
 <div class="homeFeature">
-
-  <div class="row">
-
+  <div class="row imageRow">
     <div class="four columns flush">
       <div class="panel">
         <p>
           <img src="images/home_1.jpg" />
         </p>
-      </div>
-    </div>
+      </div><!--/panel-->
+    </div><!--/col-->
     <div class="four columns flush">
       <div class="panel">
         <p>
           <img src="images/home_2.jpg" />
         </p>
-      </div>
-    </div>
+      </div><!--/panel-->
+    </div><!--/col-->
     <div class="four columns flush">
       <div class="panel">
         <p>
           <img src="images/home_3.jpg" />
         </p>
-      </div>
-    </div>
+      </div><!--/panel-->
+    </div><!--/col-->
+  </div><!--/row-->
+  <div class="row imageRow">
     <div class="four columns flush">
       <div class="panel">
         <p>
           <img src="images/home_4.jpg" />
         </p>
-      </div>
-    </div>
+      </div><!--/panel-->
+    </div><!--/col-->
     <div class="four columns flush">
       <div class="panel">
         <p>
-          <img src="http://placehold.it/400x300" />
+          <img src="images/home_5.jpg" />
         </p>
-      </div>
-    </div>
+      </div><!--/panel-->
+    </div><!--/col-->
     <div class="four columns flush">
       <div class="panel">
         <p>
-          <img src="http://placehold.it/400x300" />
+          <img src="images/home_6.jpg" />
         </p>
-      </div>
-    </div>
-
+      </div><!--/panel-->
+    </div><!--/col-->
   </div>
 </div><!--/homeFeature-->
 
+<div class="row">
+  <div class="six columns flush">
+    <div class="panel">
+        <h2>Blog</h2>
+    </div><!--/panel-->
+  </div><!--/col-->
+</div><!--/row-->
 
-  <div class="row">
-
-    <div class="six columns">
+<div class="row blogPreview">
+  <div class="four columns flush">
       <div class="panel">
         <h5>Panel Title</h5>
         <p>This is a six columns grid panel with an arbitrary height. Bacon ipsum dolor sit amet salami ham hock biltong ball tip drumstick sirloin pancetta meatball short loin.</p>
-      </div>
-    </div>
-    <div class="three columns">
+      </div><!--/panel-->
+    </div><!--/col-->
+    <div class="four columns flush">
       <div class="panel">
-        <h5>Panel Title</h5>
+        <strong>Panel Title<strong>
         <p>This is a three columns grid panel with an arbitrary height.</p>
       </div>
     </div>
-    <div class="three columns">
+    <div class="four columns flush">
       <div class="panel">
         <h5>Panel Title</h5>
         <p>This is a three columns grid panel with an arbitrary height.</p>
       </div>
     </div>
 
-  </div>
+ 
 
   <!-- End Grid Section -->
 

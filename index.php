@@ -16,37 +16,41 @@
 <div class="homeFeature">
   <div class="row imageRow">
     <div class="four columns flush">
-       <img src="images/home_1.jpg" />
+       <p class="caption">Mentholatum Canada</p>
+       <img src="images/home_1.jpg"  class="color"/>
+       <img src="images/home_1bw.jpg" class="grey"/>
     </div><!--/col-->
+    
     <div class="four columns flush">
      
           <img src="images/home_2.jpg" />
        
     </div><!--/col-->
     <div class="four columns flush">
+   
           <img src="images/home_3.jpg" />
     </div><!--/col-->
   </div><!--/row-->
   <div class="row imageRow">
     <div class="four columns flush">
       <div class="panel">
-        <p>
+      
+           
           <img src="images/home_4.jpg" />
-        </p>
       </div><!--/panel-->
     </div><!--/col-->
     <div class="four columns flush">
       <div class="panel">
-        <p>
+        <p class="caption">OXY</p>
           <img src="images/home_5.jpg" />
-        </p>
+       
       </div><!--/panel-->
     </div><!--/col-->
     <div class="four columns flush">
       <div class="panel">
-        <p>
+     
           <img src="images/home_6.jpg" />
-        </p>
+     
       </div><!--/panel-->
     </div><!--/col-->
   </div>
